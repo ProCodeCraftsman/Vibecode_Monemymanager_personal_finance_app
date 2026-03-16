@@ -18,11 +18,7 @@ As a Product Manager, I built this to solve the friction of manual expense loggi
 * **Version Control:** Git/GitHub for CI/CD readiness.
 * **Documentation:** Driven by a comprehensive PRD (Product Requirement Document).
 
-## 📈 Why This Matters for Recruiters
-This repo demonstrates my ability to:
-1.  **Bridge the Gap:** Translate high-level business requirements into technical implementation.
-2.  **AI Orchestration:** Master the latest AI coding workflows to deliver results faster than traditional methods.
-3.  **Operations Mindset:** Applying ERP-level organizational logic to consumer-facing applications.
+
 
 ---
 *Created by [Your Name] - Product Manager & ERP Lead.*
