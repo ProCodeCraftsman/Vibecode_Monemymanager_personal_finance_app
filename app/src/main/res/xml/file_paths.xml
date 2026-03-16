@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file tells FileProvider which folders it is allowed to share URIs for.
+  Required for the camera receipt photo feature.
+
+  Place this file at:
+  app/src/main/res/xml/file_paths.xml
+
+  (Create the "xml" folder inside "res" if it doesn't exist)
+-->
+<paths>
+    <!-- Camera photos stored in app's external pictures folder -->
+    <external-files-path
+        name="camera_photos"
+        path="Pictures/" />
+
+    <!-- Downloaded / exported files -->
+    <external-path
+        name="downloads"
+        path="Download/" />
+</paths>
