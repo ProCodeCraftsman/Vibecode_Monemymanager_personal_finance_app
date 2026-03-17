@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<!--
+  Place this file at:
+  app/src/main/res/values/themes.xml
+  (replace the existing one if it exists)
 
-    <style name="Theme.MoneyManager" parent="android:Theme.Material.Light.NoActionBar" />
+  AppCompatActivity requires the theme to extend Theme.AppCompat
+  or Theme.MaterialComponents — NOT Theme.Material3.
+-->
+<resources>
+    <style name="Theme.MoneyManager" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Status bar color — matches the app's dark sidebar -->
+        <item name="android:statusBarColor">#0f0e0c</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">#0f0e0c</item>
+    </style>
 </resources>

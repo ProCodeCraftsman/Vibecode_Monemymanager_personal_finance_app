@@ -55,4 +55,12 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    // Biometric authentication (Face ID / Fingerprint)
+    implementation("androidx.biometric:biometric:1.2.0-alpha05")
+
+    // Core / Activity (likely already present, keep them)
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.activity:activity-ktx:1.8.0")
+    implementation("androidx.appcompat:appcompat:1.7.0")
+
 }
